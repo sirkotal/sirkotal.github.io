@@ -19,7 +19,21 @@
             margin-left: auto;
             margin-right: auto;
         }
-</style>
+
+        img:hover {
+            animation: rotation 1s infinite linear;
+            cursor: pointer;
+        }
+
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(359deg);
+            }
+        }
+    </style>
     <body>
         <h1>You still don't get it!</h1>
         <p>I'm using war as a business to get elected! So I can end war as a business... In my new America, people will die and kill... 
